@@ -1,0 +1,52 @@
+.reviews {
+  margin-bottom: 40px;
+
+  .swiper {
+    overflow: hidden;
+    display: flex;
+  }
+
+  .swiper-wrapper {
+    display: flex;
+    align-items: flex-start;
+  }
+
+  .swiper-slide {
+    width: 100%;
+  }
+
+  &__navigation {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 54px;
+  }
+
+  &__pagination {
+    display: flex;
+    transform: translateY(-3px);
+    gap: 10px;
+  }
+
+  &__nav-btn {
+
+    &:nth-of-type(2) {
+      transform: scaleX(-1);
+    }
+  }
+
+  .swiper-pagination-bullet {
+    transition: .3s ease;
+    display: block;
+    border: 2px solid rgba(134, 190, 187, 0.5);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .swiper-pagination-bullet-active {
+    background: #86BEBB;
+    border: transparent;
+  }
+}
