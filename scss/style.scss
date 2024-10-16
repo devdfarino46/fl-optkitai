@@ -1,1 +1,25 @@
+@import 'base/imports';
+
+* {
+  
+}
+
+body, html {
+  font-family: 'Manrope', sans-serif;
+
+}
+
+body {
+  
+}
+
+[class *= "__container"], .container {
+  padding: 0 16px;
+  margin: 0 auto;
+  max-width: clamp(944px, -0.036rem + 81.43vw, 1172px);
+  min-width: 320px;
+  width: 100%;
+  flex: 1 0 auto;
+}
+
 @import 'blocks/blocks';

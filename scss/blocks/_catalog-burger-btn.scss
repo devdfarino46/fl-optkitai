@@ -1,0 +1,13 @@
+.catalog-burger-btn {
+  padding: 4.5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: clamp(48px, 0.929rem + 2.86vw, 56px);
+  aspect-ratio: 1 / 1;
+  display: flex;
+
+  @media (max-width: 990px) {
+    display: none;
+  }
+}

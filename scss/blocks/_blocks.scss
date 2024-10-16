@@ -1,2 +1,50 @@
-@import 'reviews';
-@import 'review';
+.nav {
+
+  &__list {
+    display: flex;
+    gap: 24px;
+  }
+
+  &__item {
+    transition: .3s ease;
+    
+    @media (any-hover: hover) {
+      &:hover {
+        color: #444444;
+      }
+    }
+  }
+}
+.nav-cta {
+  display: flex;
+
+  &__link {
+    transition: .3s ease;
+    
+    @media (any-hover: hover) {
+      &:hover {
+        color: #444444;
+      }
+    }
+  }
+
+  ._line {
+    display: block;
+    margin: 1px 16px;/* Line 3 */
+
+    width: 0px;
+    border: 1px solid #444444;
+  }
+}
+.logo {
+}
+
+
+@import 'button';
+@import 'menu';
+@import 'menu-btn';
+@import 'rating';
+@import 'search';
+@import 'catalog-burger-btn';
+
+@import 'header';
