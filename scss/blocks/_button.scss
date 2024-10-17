@@ -42,4 +42,31 @@
       font-size: 14px;
     }
   }
+
+  &_white {
+    background: white;
+
+    span {
+      color: #4286F4;
+    }
+
+    svg path, svg rect {
+      color: #4286F4;
+    }
+
+    @media (any-hover: hover) {
+      &:hover {
+        background: transparent;
+        border-color: #FFFFFF;
+
+        span {
+          color: white;
+        }
+    
+        svg path, svg rect {
+          color: white;
+        }
+      }
+    }
+  }
 }

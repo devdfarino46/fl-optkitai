@@ -76,6 +76,7 @@
   border-radius: 32px;
   margin-left: 16px;
   margin-right: 16px;
+  margin-top: clamp(8px, 0.280rem + 0.80vw, 16px);
   
   &>* {
     position: relative;
@@ -105,3 +106,4 @@
 @import 'package';
 @import 'transpar';
 @import 'detail';
+@import 'intouch';
