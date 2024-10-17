@@ -1,23 +1,45 @@
 .button {
+  display: flex;
+  text-align: center;
+  justify-content: center;
   background: #4286F4;
   border-radius: 8px;
   color: white;
   transition: .3s ease;
   border: 2px solid transparent;
+  padding: 16px 20px;
 
-  svg path, svg rect {
+  span {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #FFFFFF;
+  }
+
+  svg path, svg rect, span {
     transition: .3s ease;
   }
 
   @media (any-hover: hover) {
     &:hover {
       background-color: white;
-      color: #4286F4;
       border-color: #4286F4;
 
       svg path, svg rect {
         fill: #4286F4;
       }
+
+      span {
+        color: #4286F4;
+      }
+    }
+  }
+
+  @media (max-width: 1160px) {
+    padding: 14px 18px;
+
+    span {
+      font-size: 14px;
     }
   }
 }
