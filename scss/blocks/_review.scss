@@ -15,31 +15,6 @@
     display: none;
   }
 
-  @media (max-width: 440px) {
-    padding-bottom: 0;
-
-    &__hide-text {
-      display: inline;
-    }
-
-    &__show-text {
-      display: none;
-    }
-
-    &:not(._full) &__text ._short {
-      &::before {content: '...';}
-      &::after {content: '...';}
-    }
-
-    &._full &__hide-text {
-      display: none;
-    }
-
-    &._full &__show-text {
-      display: inline;
-    }
-  }
-
 	&__ava {
 
     img {
@@ -133,4 +108,28 @@
       display: flex;
     }
 	}
+
+  @media (max-width: 880px) {
+    max-width: none;
+  }
+
+  @media (max-width: 440px) {
+    padding-bottom: 0;
+
+    &__hide-text {
+      display: inline;
+    }
+
+    &__show-text {
+      display: none;
+    }
+
+    &._full &__hide-text {
+      display: none;
+    }
+
+    &._full &__show-text {
+      display: inline;
+    }
+  }
 }
