@@ -1,0 +1,34 @@
+.marking {
+  padding: 75px 0 90px;
+  background: #F6F6F6;
+
+	&__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px 30px;
+
+    @media (max-width: 880px) {
+      flex-direction: column-reverse;
+      align-items: stretch;
+    }
+	}
+
+	&__title {
+    flex: 1 0;
+    text-align: center;
+	}
+
+  .review {
+    flex: 1 0;
+
+  }
+
+  @media (max-width: 1160px) {
+    padding: 56px 0;
+  }
+
+  @media (max-width: 880px) {
+    padding: 32px 0 40px;
+  }
+}
