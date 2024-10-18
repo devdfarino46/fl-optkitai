@@ -88,6 +88,15 @@
   transform: translate(-50%, -50%);
   min-width: max-content;
   min-height: max-content;
+  pointer-events: none;
+}
+
+.review2-bg {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  min-width: max-content;
+  min-height: max-content;
+  pointer-events: none;
 }
 
 
@@ -98,6 +107,7 @@
 @import 'search';
 @import 'catalog-burger-btn';
 @import 'review';
+@import 'review2';
 
 @import 'header';
 @import 'footer';
@@ -110,3 +120,4 @@
 @import 'marking';
 @import 'selection';
 @import 'verif';
+@import 'ourtouch';
