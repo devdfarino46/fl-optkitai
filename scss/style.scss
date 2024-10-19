@@ -1,11 +1,12 @@
 @import 'base/imports';
 
-body, html {
-  font-family: 'Manrope', sans-serif;
+* {
+  scrollbar-color: #4286F4 #FFF;
+  scrollbar-width: thin;
 }
 
-body {
-  
+body, html {
+  font-family: 'Manrope', sans-serif;
 }
 
 [class *= "__container"], .container {

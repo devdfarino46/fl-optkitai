@@ -1,8 +1,13 @@
 .header {
+  position: fixed;
   font-family: 'Manrope';
   background: #FFFFFF;
   border-bottom: 2px solid #E5E7EB;
   margin-bottom: 16px;
+  z-index: 1000;
+  left: 0;
+  right: 0;
+  top: 0;
 
   &__container {
   }
